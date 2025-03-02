@@ -1,4 +1,15 @@
 # Padavan
+
+    ##科学上网##
+    echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config
+    #echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #mini太小，内置不进
+    #echo "CONFIG_FIRMWARE_INCLUDE_XRAY=y" >> .config #mini太小，内置不进
+    #echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config #mini太小，内置不进
+    #echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=y" >> .config 
+
+不能使用vmess
+
+
 代码基于vb1980和keke1023，感谢v大持续为老旧的系统更新软件版本。
 我做了一些整合优化。更新github  action云编译脚本和教程。
 老设备padavan 3.4内核最终版！！
